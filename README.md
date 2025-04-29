@@ -1,6 +1,6 @@
 # Cliente MQTT Asíncrono con TLS
 
-Este proyecto es una aplicación en Python que se conecta a un broker MQTT usando comunicación cifrada (MQTTS). Se ejecuta dentro de un contenedor Docker y utiliza `aiomqtt`.
+Este proyecto es una aplicación en Python que se conecta a un broker MQTT. Se ejecuta dentro de un contenedor Docker y utiliza `aiomqtt`.
 
 ## Características
 
