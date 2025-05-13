@@ -22,14 +22,14 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(update.message.chat.id, text="Bienvenido al Bot "+ nombre + " " + apellido,reply_markup=ReplyKeyboardMarkup(kb))
 
 async def acercade(update: Update, context):
-    await context.bot.send_message(update.message.chat.id, text="Este bot fue creado para el curso de IoT FIO")
+    await context.bot.send_message(update.message.chat.id, text="Este es el bot del Jota")
 
 async def kill(update: Update, context):
     logging.info(context.args)
-    if context.args and context.args[0] == '@e':
-        await context.bot.send_animation(update.message.chat.id, "CgACAgEAAxkBAAOPZkuctzsWZVlDSNoP9PavSZmH5poAAmUCAALrx0lEVKaX7K-68Ns1BA")
-        await asyncio.sleep(6)
-        await context.bot.send_message(update.message.chat.id, text="¡¡¡Ahora estan todos muertos!!!")
+    if context.args and context.args[0] == 'Madrid':
+        await context.bot.send_animation(update.message.chat.id, "https://i.pinimg.com/originals/46/7b/a0/467ba04c9491edfe82c2099475b11a4a.gif")
+        await asyncio.sleep(2)
+        await context.bot.send_message(update.message.chat.id, text="🥶🥶🥶")
     else:
         await context.bot.send_message(update.message.chat.id, text="☠️ ¡¡¡Esto es muy peligroso!!! ☠️")
         
