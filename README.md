@@ -42,7 +42,3 @@ Los comandos con botones envían internamente mensajes de texto que son tratados
 - Los usuarios autorizados están definidos en el código.
 - El bot se conecta al broker usando TLS con certificados verificados.
 - No se almacena el valor de destello, solo se actúa al recibirlo.
-
----
-
-Este trabajo fue desarrollado como parte de la materia [nombre de la materia] de la carrera de Ingeniería en Computación.
