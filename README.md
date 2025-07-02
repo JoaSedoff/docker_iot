@@ -16,12 +16,12 @@ Este proyecto es una pequeña agenda web desarrollada con Flask, que permite ges
 - Python 3.11+
 - MariaDB o MySQL
 
-##Variables de entorno necesarias
-CRUD_USER=usuario_db
-CRUD_PASS=contraseña_db
-CRUD_DB=nombre_db
-MARIADB_SERVER=nombre_o_ip_del_servidor
-FLASK_SECRET_KEY=clave_secreta_flask
+## Variables de entorno necesarias
+- CRUD_USER=usuario_db
+- CRUD_PASS=contraseña_db
+- CRUD_DB=nombre_db
+- MARIADB_SERVER=nombre_o_ip_del_servidor
+- FLASK_SECRET_KEY=clave_secreta_flask
 
 ## Estructura principal
 
